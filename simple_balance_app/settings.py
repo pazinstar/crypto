@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-mq+p#1l&hvvm3ouhj(4d8_n_($%aju!=)xk6hy0-3d#pmuqokf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 COINBASE_COMMERCE_API_KEY = '675c2608-ba94-4d63-ac1e-09911601d242'
