@@ -64,7 +64,7 @@ def coinbase_webhook(request):
 
 def home(request):
     client = Client(api_key=settings.COINBASE_COMMERCE_API_KEY)
-    domain_url = 'http://localhost:8000/'
+    domain_url = 'https://cryptofinal.pythonanywhere.com/'
     product = {
         'name': 'Coffee',
         'description': 'A really good local coffee.',
