@@ -71,7 +71,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'simple_balance_app.wsgi.application'
 
-
+COINBASE_COMMERCE_WEBHOOK_SHARED_SECRET = 'c31e66d8-7274-4045-878c-540c5159abde'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
